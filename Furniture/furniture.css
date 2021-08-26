@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030303;
+}
+
+.main-page{
+    width: 900px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 20px 20px 50px rgb(119, 116, 116);
+    box-shadow: -4px -4px 8px 1px rgba(255, 255, 255, 0.233);
+}
+
+a[href="Home"]{
+    
+    padding: 12px 27px; 
+    position: relative;
+    top: 18px;
+    left: 25px;
+    margin-left: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #030303;
+    transition: background .5s;
+    transition: text 0s;
+    
+}
+
+a[href="furniture"]{
+    
+    padding: 12px 27px; 
+    position: relative;
+    top: 18px;
+    left: -10px;
+    margin-left: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #030303;
+    transition: background .5s;
+    transition: text 0s;
+    
+}
+
+a[href="contact"]{
+    
+     padding: 12px 27px;  
+     position: relative; 
+    top: 18px;
+    left: -40px; 
+    margin-left: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #030303;
+    transition: background .5s;
+    transition: text 0s;
+   
+    
+}
+
+a[href="about"]{
+    
+     padding: 12px 27px;  
+    position: relative;
+    top: 18px;
+    left: -90px;
+    margin-left: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #030303;
+    transition: background .5s;
+    transition: text 0s;
+    z-index: 10;
+    }
+
+ /* a[href="contact"]:hover{
+    width: 100px;
+    height: 70px;
+    background-color: red;
+    color: white;
+    position: relative;
+    transition: 1s;
+}  */
+
+a:hover{
+    width: 80px;
+    height: 50px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+}
+
+/* .active{
+    width: 100px;
+    height: 70px;
+    background-color: teal;
+    position: absolute;
+    left: 40px;
+    top: -20px;
+    border-radius: 5px;
+    display: none;
+} */
+
+/* .active:hover a{
+    display: inline;
+} */
+
+
+ /* nav>a:hover {
+    width: 90px;
+    height: 55px;
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+    top: -20px;
+    /* text-transform: none; */
+    /* text-align: center; */
+    /* padding: 12px 27px; */
+    /* position: relative; */
+    /* top: -20px; 
+  } */
+
+
+img{
+    position: relative;
+    margin-left: 25px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+   
+}
+
+.furniture1>img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.furniture1{
+    width: 130px;
+    height: 120px;
+    background-color: transparent;
+    position: relative;
+    top: 90px;
+    border: 2px solid teal;
+    left: -10px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: -2px -2px 10px rgba(99, 98, 98, 0.548);
+}
+
+.furniture2>img{
+    position: relative;
+    top: 5px;
+}
+
+.furniture2{
+    width: 130px;
+    height: 120px;
+    background-color: teal;
+    position: relative;
+    top: 90px;
+    border: 2px solid teal;
+    left: -10px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 10px;
+    box-shadow: -2px -2px 10px;
+}
+
+.furniture3>img{
+    position: relative;
+    top: 5px;
+}
+
+.furniture3{
+    width: 130px;
+    height: 120px;
+    background-color: teal;
+    position: relative;
+    top: 90px;
+    border: 2px solid teal;
+    left: -10px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 10px;
+    box-shadow: -2px -2px 10px;
+}
+
+.middle-page{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-100%, -60%);
+}
+
+h1{
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+
+.middle-page>p{
+    width: 300px;
+    margin-top: 15px;
+    font-size: 11px;
+    font-weight: 100;
+
+}
+
+#scroll1{
+    width: 10px;
+    height: 10px;
+    margin-top: 30px;
+    background-color: rgb(212, 212, 212);
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+#scroll2{
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#scroll3{
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+.middle-page #scroll3 + p{
+    font-size: 15px;
+    color: orange;
+    margin-top: 9px;
+}
+
+#buy{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+#buy + p{
+    margin-top: 8px;
+}
+
+#offline{
+    position: relative;
+    top: 120px
+}
+
+.big-circle{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: teal;
+    position: relative;
+    left: 450px;
+    top: -500px;
+    z-index: 1;
+}
+
+.big-furniture > img{
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 5px;
+    z-index: 10;
+    box-shadow: -5px -5px 30px;
+}
+
+.big-furniture > p{
+    font-size: 193.5px;
+    font-weight: bolder;
+    line-height: 5;
+    transform: rotate(90deg);
+    position: relative;
+    top: -501px;
+    left: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 1;
+    color: rgba(12, 240, 240, 0.356);
+}
